@@ -1,0 +1,38 @@
+/* line 8, ../sass/layout.scss */
+.wrap {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, transparent 80%);
+  background-size: 20.83333%;
+  background-origin: content-box;
+  background-clip: content-box;
+  background-position: left top;
+  height: 100vh;
+}
+/* line 12, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.7/sass/susy/output/support/_clearfix.scss */
+.wrap:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@media (min-width: 800px) {
+  /* line 8, ../sass/layout.scss */
+  .wrap {
+    background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, transparent 80%);
+    background-size: 12.82051%;
+    background-origin: content-box;
+    background-clip: content-box;
+    background-position: left top;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 8, ../sass/layout.scss */
+  .wrap {
+    background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, transparent 80%);
+    background-size: 8.47458%;
+    background-origin: content-box;
+    background-clip: content-box;
+    background-position: left top;
+  }
+}

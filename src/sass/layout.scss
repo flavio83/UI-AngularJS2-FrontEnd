@@ -1,0 +1,33 @@
+@import "bower_components/susy/sass/susy";
+
+$susy : (
+  columns: 5,
+  debug: (image: show)
+);
+
+.body {
+  @include container(1140px);
+  // Forces wrap to full height.
+  height: 100vh;
+
+  font-size: 1.3em;
+  @include breakpoint((min-width 30em) (max-width 60em) (orientation portrait)) {
+    font-size: 1.5em;
+  }
+
+  @media (min-width: 600px) {
+    @include show-grid(2);
+  }
+
+  // Changing to a 8 column grid
+  @media (min-width: 800px) {
+    @include show-grid(8);
+  }
+
+  // Changing to a 12 column grid
+  @media (min-width: 1200px) {
+    @include show-grid(12);
+  }
+
+
+}

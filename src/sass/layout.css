@@ -1,0 +1,37 @@
+.body {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, transparent 80%);
+  background-size: 20.83333%;
+  background-origin: content-box;
+  background-clip: content-box;
+  background-position: left top;
+  height: 100vh; }
+  .body:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  @media (min-width: 600px) {
+    .body {
+      background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, transparent 80%);
+      background-size: 55.55556%;
+      background-origin: content-box;
+      background-clip: content-box;
+      background-position: left top; } }
+  @media (min-width: 800px) {
+    .body {
+      background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, transparent 80%);
+      background-size: 12.82051%;
+      background-origin: content-box;
+      background-clip: content-box;
+      background-position: left top; } }
+  @media (min-width: 1200px) {
+    .body {
+      background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, transparent 80%);
+      background-size: 8.47458%;
+      background-origin: content-box;
+      background-clip: content-box;
+      background-position: left top; } }
+
+/*# sourceMappingURL=layout.css.map */
